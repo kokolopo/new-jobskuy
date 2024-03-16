@@ -1,5 +1,6 @@
 import React from "react";
 import image1 from "../assets/image-1.png";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -34,7 +35,7 @@ const Login = () => {
                     Lupa password
                   </div>
                   <div className="hover:cursor-pointer hover:text-secondary">
-                    Daftar
+                    <Link to={"/registration"}>Daftar</Link>
                   </div>
                 </div>
 
