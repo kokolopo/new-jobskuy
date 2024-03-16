@@ -81,7 +81,7 @@ const Registration = () => {
                   </div>
                 </fieldset>
 
-                {role === "3" ? (
+                {role === "freelance" ? (
                   <div className="">
                     <select
                       id="countries"
